@@ -16,8 +16,8 @@ sudo systemctl daemon-reload
 sudo systemctl start example-daemon.service
 sudo systemctl status example-daemon.service
 
-printf "\nExeecute 'sudo systemctl stop example-daemon.service' to stop the daemon.\n"
-echo "Exeecute 'sudo systemctl enable example-daemon.service' to enable auto startup."
+printf "\nExecute 'sudo systemctl stop example-daemon.service' to stop the daemon.\n"
+echo "Execute 'sudo systemctl enable example-daemon.service' to enable auto startup."
 echo "Execute 'sudo systemctl disable example-daemon.service' to disable auto startup."
 echo "Execute 'sudo systemctl -l example-daemon.service' to see daemon's logs."
 echo "Execute 'sudo journalctl -u example-daemon.service -f' to tail daemon's logs through journalctl."
