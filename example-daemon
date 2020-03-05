@@ -1,0 +1,7 @@
+#!/bin/sh
+
+# daemonized section
+while true; do
+  echo "example-daemon is running"
+  sleep 60
+done

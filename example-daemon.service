@@ -1,0 +1,9 @@
+[Unit]
+Description=Example Daemon
+
+[Service]
+ExecStart=/bin/sh /usr/bin/example-daemon
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
